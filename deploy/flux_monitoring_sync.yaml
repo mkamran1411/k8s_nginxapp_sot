@@ -6,7 +6,7 @@ metadata:
   namespace: fluxcd-test
 spec:
   interval: 1m0s
-  path: ./manifests/monitoring/kube-prometheus-stack
+  path: ./monitoring/controllers/kube-prometheus-stack
   prune: true
   sourceRef:
     kind: GitRepository

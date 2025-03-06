@@ -5,7 +5,7 @@ metadata:
   name: k8snginxappsot
   namespace: fluxcd-test
 spec:
-  interval: 30s
+  interval: 15s
   ref:
     branch: main
   url: https://github.com/mkamran1411/k8s_nginxapp_sot.git

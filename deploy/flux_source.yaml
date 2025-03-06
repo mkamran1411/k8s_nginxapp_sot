@@ -3,9 +3,9 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: k8snginxappsot
-  namespace: fluxcd-test
+  namespace: flux-system
 spec:
-  interval: 15s
+  interval: 30s
   ref:
     branch: main
   url: https://github.com/mkamran1411/k8s_nginxapp_sot.git
